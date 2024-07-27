@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:title>참나무 연합 비밀 결사 홍보 책자</dc:title>
+        <dc:creator>다람쥐 비밀 결사</dc:creator>
+        <dc:identifier id="bookid">urn:uuid:12345678-1234-1234-1234-123456789012</dc:identifier>
+        <dc:language>ko</dc:language>
+    </metadata>
+    <manifest>
+        <item id="cover" href="cover.html" media-type="application/xhtml+xml"/>
+        <item id="introduction" href="introduction.html" media-type="application/xhtml+xml"/>
+        <item id="organization" href="organization.html" media-type="application/xhtml+xml"/>
+        <item id="sabotage" href="sabotage.html" media-type="application/xhtml+xml"/>
+        <item id="styles" href="styles.css" media-type="text/css"/>
+    </manifest>
+    <spine>
+        <itemref idref="cover"/>
+        <itemref idref="introduction"/>
+        <itemref idref="organization"/>
+        <itemref idref="sabotage"/>
+    </spine>
+</package>
